@@ -64,6 +64,7 @@ var newLevel = function () {
 	endGameSplash.style.display = 'none';
 
 	tableDOM.style.visibility = 'visible';
+	tableDOM.style.display = 'flex';
 
 	list= [];
 	clear();
